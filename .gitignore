@@ -1,0 +1,52 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Claude ###
+.claude
+CLAUDE.md
+#IDE 설정 무시
+.idea/
+
+# Android SDK 경로 등 민감한 정보
+local.properties
+
+# 로컬 환경 설정 (DB 비밀번호 등 민감한 정보)
+src/main/resources/application-local.yaml
+
+# QueryDSL Q클래스 (자동 생성)
+src/main/generated/
